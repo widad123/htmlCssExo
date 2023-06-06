@@ -1,0 +1,10 @@
+ul{
+    color: blue;
+    background-color: #ff4040;
+    margin: 1rem; 
+    list-style-type: square;
+}
+/*120% de la taille du parent*/
+h1{
+    font-size: 120%;
+}

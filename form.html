@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="traitement.php" method="get">
+        <table>
+            <tr>
+                <td>
+                    <label>Entrez votre nom</label>
+                </td>
+                <td>
+                    <input type="text" name="nom" autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Entrez votre nadresse e-mail</label>
+                </td>
+                <td>
+                    <input type="text" name="mail">
+                </td>
+            </tr>
+            <tr>
+                <td>Choisissez un jour</td>
+                <td>
+                    <select name="nom" size="3" multiple>
+                        <option >Lundi</option>
+                        <option selected>Mardi</option>
+                        <option >Mercredi</option>
+                        <option >Jeudi</option>
+                        <option >Vendredi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Etes-vous client de la fnac ? </label>
+                </td>
+                <td>
+                    <label for="oui">OUI</label><input type="radio" checked name="nonoui" id="oui">
+                    <label for="non">NON</label><input type="radio" name="nonoui" id="non">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit">
+                </td>
+                <td>
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
