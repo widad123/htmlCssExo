@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>nth-child-nth-of-type</title>
+    <style>
+        /**le 2 element de type p
+        p:nth-of-type(2){
+            color: red;
+        }*/
+        /*il prend le deuxième de son parent de type p*/
+        p:nth-child(2){
+            color:red;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div>
+        <h2>Un titre h2</h2>
+        <p>premier</p>
+        <p>Deuxième</p>
+        <p>Troixième</p>
+    </div>
+  </body>
+</html>

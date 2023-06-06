@@ -8,3 +8,13 @@ ul{
 h1{
     font-size: 120%;
 }
+
+/*sens de lecture<- tous les li précéder par un li*/
+li+li{
+    color:white;
+}
+
+/*un h1 précéder immediatement ou non par un ul*/
+ul~h1{
+    font-family: courier;
+}
